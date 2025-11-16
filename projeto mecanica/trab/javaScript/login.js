@@ -3,8 +3,7 @@ function verificar(){
     const password = document.getElementById('password').value;
 
     if (user == 'user' && password == '1234'){
-        alert('ss')
-        window.location.href = "index.html";
+        window.location.href = "dashboard.html";
     }
     else{
         alert('Tente novamente!');

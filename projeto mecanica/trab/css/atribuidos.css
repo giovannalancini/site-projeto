@@ -83,7 +83,28 @@ section {
     padding: 20px;
     overflow-y: auto;
 }
-section button {
+
+section ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+section li {
+    background-color: #2a3b5b;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 4px;
+    flex-wrap: wrap;
+}
+
+section li span {
+    flex: 1;
+    text-align: center;
+}
+section li button {
     background-color: #00b2ff;
     color: white;
     border: none;
@@ -93,7 +114,7 @@ section button {
     cursor: pointer;
     transition: background 0.3s ease, transform 0.1s ease;
 }
-section button:hover {
+section li button:hover {
     background-color: #0092d1;
     transform: scale(1.03);
 }
