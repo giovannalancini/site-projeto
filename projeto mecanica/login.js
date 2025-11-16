@@ -3,7 +3,7 @@ function verificar(){
     const password = document.getElementById('password').value;
 
     if (user == 'user' && password == '1234'){
-        window.location.href = "dashboard.html";
+        window.location.href = "tecnico/dashboard.html";
     }
     else{
         alert('Tente novamente!');
