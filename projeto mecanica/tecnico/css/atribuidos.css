@@ -118,3 +118,8 @@ section li button:hover {
     background-color: #0092d1;
     transform: scale(1.03);
 }
+
+.item{
+    display: flex;
+    gap: 10px;
+}
